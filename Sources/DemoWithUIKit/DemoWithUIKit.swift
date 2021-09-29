@@ -1,0 +1,6 @@
+public struct DemoWithUIKit {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
