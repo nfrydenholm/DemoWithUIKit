@@ -8,4 +8,10 @@ final class DemoWithUIKitTests: XCTestCase {
         // results.
         XCTAssertEqual(DemoWithUIKit().text, "Hello, World!")
     }
+    
+    func testMakeLabel() {
+        let result = DemoWithUIKit().makeLabel(text: "Hello Jetbrains")
+    
+        XCTAssertEqual("Hello Jetbrains", result.text, "Wrong text on label")
+    }
 }
